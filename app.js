@@ -1,4 +1,3 @@
-fetch ('https://api.github.com/users/github')
-    .then(res => res.json());
-    .then(json => console.log(json));
-
+fetch ('https://swapi.co/api')
+    .then(res => res.json())
+    .then((JSON) => console.log(JSON));
