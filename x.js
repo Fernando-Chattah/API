@@ -8,4 +8,4 @@ var datos = () => {
 }    
 
 let boton = document.getElementById("api");
-boton.addEventListener("onclick", datos());
+boton.addEventListener("onclick", datos(), function event() {event.preventDefault()});
